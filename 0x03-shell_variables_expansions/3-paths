@@ -1,0 +1,3 @@
+#!/bin/bash
+echo $((`echo $path | grep -o ":/" | wc -1` + 1 )
+
